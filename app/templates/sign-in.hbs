@@ -1,4 +1,15 @@
-<div class="bgimage">
-    <h1>Username</h1>
-    <i></i>
+{{!-- <div class="study-groups-bgimage">
+    <form {{action 'createUser' on="submit"}}>
+        {{input type="text" value=userEmail placeholder="Email"}}
+        {{input type="password" value=userPassword placeholder="Password"}}
+        <button type="submit">Sign up</button>
+    </form>
+</div> --}}
+<div class="parent">
+    <div class="child">
+        {{#link-to "sign-in" class="button"}} 
+            Sign Up
+        {{/link-to}}
+    </div>
 </div>
+{{outlet}}

@@ -7,6 +7,6 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.route('study-groups');
   this.route('sign-in');
+  this.route('study-groups');
 });
