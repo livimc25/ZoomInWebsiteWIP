@@ -7,6 +7,13 @@ export default class App extends Application {
   modulePrefix = config.modulePrefix;
   podModulePrefix = config.podModulePrefix;
   Resolver = Resolver;
+  
+//   actions: {
+//   zoomIn() {
+//       var myImg = document.getElementById("bgimage")
+//       var currWidth = myImg.clientWidth;
+//       myImg.style.width = (currWidth + 100) + "px";
+ // }
 }
 
 loadInitializers(App, config.modulePrefix);
